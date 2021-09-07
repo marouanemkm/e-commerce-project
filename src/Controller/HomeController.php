@@ -9,7 +9,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class HomeController extends AbstractController
 {
     /**
-     * @Route("/", name="hoempage")
+     * @Route("/", name="homepage")
      */
     public function homepage(ProductRepository $pr)
     {
